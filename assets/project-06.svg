@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Project image placeholder 06</title><desc id="desc">Blue modular grid study. Replace this file with a project image.</desc>
+  <defs><pattern id="grid" width="120" height="120" patternUnits="userSpaceOnUse"><rect width="112" height="112" fill="#063f8f"/><path d="M0 0h112v112H0z" fill="none" stroke="#4fb3ff" stroke-width="2"/><path d="M0 56h112M56 0v112" stroke="#8ad7ff" stroke-width="1" opacity=".5"/></pattern><linearGradient id="fade" x1="0" x2="1"><stop stop-color="#001634"/><stop offset=".5" stop-color="#002FA7" stop-opacity=".1"/><stop offset="1" stop-color="#001634"/></linearGradient></defs>
+  <rect width="1600" height="900" fill="url(#grid)"/><rect width="1600" height="900" fill="url(#fade)"/>
+  <text x="70" y="830" fill="#fff" font-family="Arial, sans-serif" font-size="28" letter-spacing="4">REPLACE WITH PROJECT IMAGE 06</text>
+</svg>

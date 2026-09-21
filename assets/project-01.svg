@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Project image placeholder 01</title><desc id="desc">Klein blue linear study. Replace this file with a project image.</desc>
+  <rect width="1600" height="900" fill="#03102f"/>
+  <g fill="none" stroke-linecap="round">
+    <path d="M-80 630C250 250 320 940 670 420S1100 40 1700 450" stroke="#002FA7" stroke-width="90"/>
+    <path d="M-70 210C280 650 490-180 850 360s440 510 820 70" stroke="#49d9ff" stroke-width="18"/>
+    <path d="M120 980C340 80 920 960 1500-90" stroke="#f2f7ff" stroke-width="10"/>
+    <circle cx="820" cy="450" r="260" stroke="#78e6ff" stroke-width="12"/>
+  </g>
+  <text x="70" y="830" fill="#fff" font-family="Arial, sans-serif" font-size="28" letter-spacing="4">REPLACE WITH PROJECT IMAGE 01</text>
+</svg>

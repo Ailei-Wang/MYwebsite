@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Project image placeholder 02</title><desc id="desc">Dark particle field. Replace this file with a project image.</desc>
+  <defs><pattern id="p" width="44" height="44" patternUnits="userSpaceOnUse"><circle cx="8" cy="9" r="2" fill="#8ddcff"/><circle cx="28" cy="32" r="1.4" fill="#fff"/></pattern><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#020817"/><stop offset="1" stop-color="#0045b7"/></linearGradient></defs>
+  <rect width="1600" height="900" fill="url(#g)"/><rect width="1600" height="900" fill="url(#p)" opacity=".75"/>
+  <path d="M0 640C310 500 500 740 800 570s540-230 800-20" fill="none" stroke="#002FA7" stroke-width="24"/>
+  <text x="70" y="830" fill="#fff" font-family="Arial, sans-serif" font-size="28" letter-spacing="4">REPLACE WITH PROJECT IMAGE 02</text>
+</svg>

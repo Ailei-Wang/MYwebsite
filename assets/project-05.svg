@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Project image placeholder 05</title><desc id="desc">Chromatic architectural study. Replace this file with a project image.</desc>
+  <rect width="1600" height="900" fill="#101010"/><rect x="0" y="0" width="420" height="900" fill="#ff4a1f"/><rect x="420" y="0" width="390" height="900" fill="#002FA7"/><rect x="810" y="0" width="510" height="900" fill="#00db78"/><rect x="1320" y="0" width="280" height="900" fill="#ff1365"/>
+  <circle cx="810" cy="450" r="330" fill="#f6f6f6" opacity=".72"/>
+  <text x="70" y="830" fill="#fff" font-family="Arial, sans-serif" font-size="28" letter-spacing="4">REPLACE WITH PROJECT IMAGE 05</text>
+</svg>
