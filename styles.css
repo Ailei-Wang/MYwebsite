@@ -212,18 +212,19 @@ button {
 
 /* Home */
 .home-intro {
-  max-width: 55rem;
+  max-width: 72rem;
   min-height: min(48rem, 68vh);
   padding-top: clamp(3.5rem, 7vw, 8rem);
 }
 
 .home-intro__title {
-  max-width: 42rem;
+  max-width: none;
   margin: 0;
-  font-size: clamp(2.8rem, 5.6vw, 6.8rem);
+  font-size: clamp(1.95rem, 5.2vw, 6.5rem);
   font-weight: 500;
   letter-spacing: -0.06em;
   line-height: 0.96;
+  white-space: nowrap;
 }
 
 .home-intro__role {
@@ -367,7 +368,7 @@ button {
 
 /* Info page */
 .info-wrap {
-  width: min(100%, 66rem);
+  width: min(100%, 82rem);
   margin-inline: auto;
 }
 
@@ -375,15 +376,45 @@ button {
   min-height: clamp(14rem, 18vh, 16rem);
 }
 
+.info-profile {
+  display: grid;
+  grid-template-columns: minmax(0, 1.55fr) minmax(16rem, 0.7fr);
+  align-items: start;
+  gap: clamp(3rem, 6vw, 7rem);
+  margin-bottom: clamp(5rem, 8vw, 8rem);
+}
+
 .info-lead {
-  max-width: 62rem;
-  margin: 0 0 clamp(4rem, 8vw, 8rem);
-  font-size: clamp(1.35rem, 2.35vw, 2.2rem);
-  line-height: 1.42;
+  max-width: 48rem;
+  margin: 0;
+  font-size: clamp(1.05rem, 1.25vw, 1.35rem);
+  line-height: 1.62;
 }
 
 .info-lead p {
-  margin: 0 0 2.5rem;
+  margin: 0 0 2rem;
+}
+
+.info-lead p:last-child {
+  margin-bottom: 0;
+}
+
+.info-portrait {
+  margin: 0;
+}
+
+.info-portrait img {
+  width: 100%;
+  aspect-ratio: 4 / 5;
+  background: #f2f2f2;
+  object-fit: cover;
+}
+
+.info-portrait__caption {
+  margin-top: 0.75rem;
+  color: var(--color-muted);
+  font-size: 0.78rem;
+  line-height: 1.4;
 }
 
 .info-sections {
@@ -456,13 +487,14 @@ button {
 /* Shared footer */
 .site-footer {
   margin-top: clamp(10rem, 20vw, 22rem);
-  padding: 0 0 clamp(2.8rem, 5vw, 5rem);
+  padding-block: 0 clamp(2.8rem, 5vw, 5rem);
 }
 
 .site-footer__name {
   margin: 0 0 1.6rem;
   font-size: clamp(1.35rem, 2vw, 2rem);
   font-weight: 600;
+  white-space: nowrap;
 }
 
 .site-footer__note {
@@ -564,6 +596,17 @@ button {
 
   .archive-entry__image-wrap {
     max-width: 30rem;
+  }
+}
+
+@media (max-width: 940px) {
+  .info-profile {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+  }
+
+  .info-portrait {
+    width: min(100%, 28rem);
   }
 }
 

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" role="img" aria-labelledby="title desc">
+  <title id="title">Portrait photo placeholder</title>
+  <desc id="desc">Replace this placeholder with a portrait photograph of Ailei Wang.</desc>
+  <rect width="800" height="1000" fill="#f1f1f1"/>
+  <rect x="48" y="48" width="704" height="904" fill="none" stroke="#002FA7" stroke-width="3"/>
+  <path d="M48 952 752 48" stroke="#002FA7" stroke-width="3"/>
+  <text x="72" y="110" fill="#002FA7" font-family="Arial, sans-serif" font-size="24" letter-spacing="3">PORTRAIT / 4:5</text>
+  <text x="72" y="910" fill="#0b0b0b" font-family="Arial, sans-serif" font-size="24" letter-spacing="2">REPLACE WITH YOUR PHOTO</text>
+</svg>

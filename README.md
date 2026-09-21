@@ -5,28 +5,29 @@
 ## 文件结构
 
 ```text
-├── index.html       # 首页
-├── work.html        # 作品列表
-├── info.html        # 关于页
-├── archive.html     # 归档页
-├── styles.css       # 全站样式
-├── script.js        # 淡入、语言切换、年份
-└── assets/          # 作品图片占位文件
+├── index.html
+├── work.html
+├── info.html
+├── archive.html
+├── styles.css
+├── script.js
+└── assets/
 ```
 
 ## 本地查看
 
-下载或克隆仓库后，直接双击 `index.html` 即可浏览，也可以用任意静态文件服务器打开仓库根目录。
+下载或克隆仓库后，直接双击 `index.html` 即可浏览；也可以使用任意静态文件服务器预览。
 
 ## 修改内容
 
-- 文字：在四个 HTML 文件中搜索项目标题或段落并替换。
-- 双语：带 `data-en` 和 `data-zh` 的元素分别存放英文与中文。
-- 图片：把真实图片放进 `assets/`，然后替换 HTML 中对应 `<img>` 的 `src`。
-- 颜色：在 `styles.css` 顶部 `:root` 中修改颜色和间距变量。
-- 邮箱与社交链接：全局搜索 `hello@aileiwang.com` 和 `href="#"` 后替换。
-- 简历：把 PDF 命名为 `cv-ailei-wang.pdf` 并放在仓库根目录。
+- 文字：直接编辑各 HTML 文件中的正文与 `data-en` / `data-zh` 属性。
+- 双语：保留相同元素上的英文与中文属性，右上角按钮会自动切换。
+- 项目图片：把图片放入 `assets/`，再修改 HTML 中对应 `<img src="...">`。
+- 个人照片：把竖版照片放入 `assets/`，并在 `info.html` 中将 `profile-placeholder.svg` 替换为你的文件名；建议使用 4:5 比例。
+- 颜色：在 `styles.css` 顶部修改 `--color-blue` 等变量。
+- 邮箱与社交链接：搜索 `hello@aileiwang.com` 和链接占位符 `href="#"` 后替换。
+- 简历：把 PDF 命名为 `cv-ailei-wang.pdf` 并放在网站根目录。
 
 ## 部署
 
-仓库文件已按静态网站根目录组织，可直接用于 GitHub Pages、Vercel 或 Cloudflare Pages，不需要构建命令。
+仓库文件位于根目录，可直接使用 GitHub Pages、Vercel 或 Cloudflare Pages 部署，无需构建命令。
