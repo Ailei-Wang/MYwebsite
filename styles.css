@@ -372,16 +372,17 @@ button {
   margin-inline: auto;
 }
 
-.page-hero.info-wrap {
-  min-height: clamp(14rem, 18vh, 16rem);
-}
-
 .info-profile {
   display: grid;
   grid-template-columns: minmax(0, 1.55fr) minmax(16rem, 0.7fr);
   align-items: start;
   gap: clamp(3rem, 6vw, 7rem);
+  padding-top: clamp(2.5rem, 5vw, 5rem);
   margin-bottom: clamp(5rem, 8vw, 8rem);
+}
+
+.info-profile__heading {
+  margin-bottom: clamp(3.5rem, 6vw, 6rem);
 }
 
 .info-lead {
@@ -432,7 +433,7 @@ button {
 }
 
 .info-download {
-  margin-top: 4.5rem;
+  margin: clamp(2.5rem, 4vw, 4rem) 0 0;
 }
 
 /* Archive page */
